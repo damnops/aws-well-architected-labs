@@ -33,21 +33,21 @@
       
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
-      <link rel="shortcut icon" href="assets/images/favicon.png">
+      <link rel="shortcut icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.0.2">
     
     
       
-        <title>AWS Well-Architected Labs</title>
+        <title>Lab Guide - AWS Well-Architected Labs</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/application.982221ab.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/application.982221ab.css">
       
       
     
     
-      <script src="assets/javascripts/modernizr.1f0bcf2b.js"></script>
+      <script src="../../../assets/javascripts/modernizr.1f0bcf2b.js"></script>
     
     
       
@@ -56,7 +56,7 @@
         <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
       
     
-    <link rel="stylesheet" href="assets/fonts/material-icons.css">
+    <link rel="stylesheet" href="../../../assets/fonts/material-icons.css">
     
     
     
@@ -96,7 +96,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#aws-well-architected-labs" tabindex="1" class="md-skip">
+      <a href="#level-100-cost-and-usage-governance" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -105,7 +105,7 @@
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="index.html" title="AWS Well-Architected Labs" class="md-header-nav__button md-logo">
+        <a href="../../../index.html" title="AWS Well-Architected Labs" class="md-header-nav__button md-logo">
           
             <i class="md-icon"></i>
           
@@ -121,7 +121,7 @@
               AWS Well-Architected Labs
             </span>
             <span class="md-header-nav__topic">
-              Home
+              Lab Guide
             </span>
           
         </div>
@@ -188,14 +188,16 @@
       
         
 
-<nav class="md-tabs" data-md-component="tabs">
+  
+
+<nav class="md-tabs md-tabs--active" data-md-component="tabs">
   <div class="md-tabs__inner md-grid">
     <ul class="md-tabs__list">
       
         
   <li class="md-tabs__item">
     
-      <a href="index.html" title="Home" class="md-tabs__link md-tabs__link--active">
+      <a href="../../../index.html" title="Home" class="md-tabs__link">
         Home
       </a>
     
@@ -207,7 +209,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="Cost/README.html" title="Cost Optimization" class="md-tabs__link">
+        <a href="../../README.html" title="Cost Optimization" class="md-tabs__link md-tabs__link--active">
           Cost Optimization
         </a>
       
@@ -220,7 +222,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="Security/README.html" title="Security" class="md-tabs__link">
+        <a href="../../../Security/README.html" title="Security" class="md-tabs__link">
           Security
         </a>
       
@@ -233,7 +235,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="Operations/README.html" title="Operational Excellence" class="md-tabs__link">
+        <a href="../../../Operations/README.html" title="Operational Excellence" class="md-tabs__link">
           Operational Excellence
         </a>
       
@@ -250,7 +252,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="Reliability/300 - Testing for Resiliency of EC2, RDS, and S3/README.html" title="Reliability" class="md-tabs__link">
+        <a href="../../../Reliability/300 - Testing for Resiliency of EC2, RDS, and S3/README.html" title="Reliability" class="md-tabs__link">
           Reliability
         </a>
       
@@ -265,7 +267,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="Performance/README.html" title="Performance Efficiency" class="md-tabs__link">
+        <a href="../../../Performance/README.html" title="Performance Efficiency" class="md-tabs__link">
           Performance Efficiency
         </a>
       
@@ -286,7 +288,7 @@
                   <div class="md-sidebar__inner">
                     <nav class="md-nav md-nav--primary" data-md-level="0">
   <label class="md-nav__title md-nav__title--site" for="__drawer">
-    <a href="index.html" title="AWS Well-Architected Labs" class="md-nav__button md-logo">
+    <a href="../../../index.html" title="AWS Well-Architected Labs" class="md-nav__button md-logo">
       
         <i class="md-icon"></i>
       
@@ -320,70 +322,11 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Home
-      </label>
-    
-    <a href="index.html" title="Home" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../../../index.html" title="Home" class="md-nav__link">
       Home
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#introduction" title="Introduction" class="md-nav__link">
-    Introduction
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#prerequisites" title="Prerequisites:" class="md-nav__link">
-    Prerequisites:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#labs" title="Labs:" class="md-nav__link">
-    Labs:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#license" title="License" class="md-nav__link">
-    License
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
     
@@ -391,10 +334,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
     
     <label class="md-nav__link" for="nav-2">
       Cost Optimization
@@ -412,7 +357,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Cost/README.html" title="Overview" class="md-nav__link">
+    <a href="../../README.html" title="Overview" class="md-nav__link">
       Overview
     </a>
   </li>
@@ -422,10 +367,12 @@
           
           
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-2" type="checkbox" id="nav-2-2">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-2" type="checkbox" id="nav-2-2" checked>
     
     <label class="md-nav__link" for="nav-2-2">
       Cost Optimization Fundamentals
@@ -443,7 +390,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Cost/Cost_Fundamentals/README.html" title="Fundamentals Overview" class="md-nav__link">
+    <a href="../README.html" title="Fundamentals Overview" class="md-nav__link">
       Fundamentals Overview
     </a>
   </li>
@@ -474,7 +421,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Cost/Cost_Fundamentals/100_1_AWS_Account_Setup/README.html" title="Lab Overview" class="md-nav__link">
+    <a href="../100_1_AWS_Account_Setup/README.html" title="Lab Overview" class="md-nav__link">
       Lab Overview
     </a>
   </li>
@@ -486,7 +433,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Cost/Cost_Fundamentals/100_1_AWS_Account_Setup/Checklist.html" title="Checklist" class="md-nav__link">
+    <a href="../100_1_AWS_Account_Setup/Checklist.html" title="Checklist" class="md-nav__link">
       Checklist
     </a>
   </li>
@@ -498,7 +445,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Cost/Cost_Fundamentals/100_1_AWS_Account_Setup/Lab_Guide.html" title="Lab Guide" class="md-nav__link">
+    <a href="../100_1_AWS_Account_Setup/Lab_Guide.html" title="Lab Guide" class="md-nav__link">
       Lab Guide
     </a>
   </li>
@@ -513,10 +460,12 @@
           
           
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-2-3" type="checkbox" id="nav-2-2-3">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-2-3" type="checkbox" id="nav-2-2-3" checked>
     
     <label class="md-nav__link" for="nav-2-2-3">
       100 Governance
@@ -534,7 +483,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Cost/Cost_Fundamentals/100_2_Cost_and_Usage_Governance/README.html" title="Lab Overview" class="md-nav__link">
+    <a href="README.html" title="Lab Overview" class="md-nav__link">
       Lab Overview
     </a>
   </li>
@@ -546,7 +495,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Cost/Cost_Fundamentals/100_2_Cost_and_Usage_Governance/Checklist.html" title="Checklist" class="md-nav__link">
+    <a href="Checklist.html" title="Checklist" class="md-nav__link">
       Checklist
     </a>
   </li>
@@ -556,11 +505,56 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="Cost/Cost_Fundamentals/100_2_Cost_and_Usage_Governance/Lab_Guide.html" title="Lab Guide" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Lab Guide
+      </label>
+    
+    <a href="Lab_Guide.html" title="Lab Guide" class="md-nav__link md-nav__link--active">
       Lab Guide
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#authors" title="Authors" class="md-nav__link">
+    Authors
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#feedback" title="Feedback" class="md-nav__link">
+    Feedback
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -594,7 +588,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Cost/Cost_Fundamentals/100_4_Cost_and_Usage_Analysis/README.html" title="Lab Overview" class="md-nav__link">
+    <a href="../100_4_Cost_and_Usage_Analysis/README.html" title="Lab Overview" class="md-nav__link">
       Lab Overview
     </a>
   </li>
@@ -606,7 +600,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Cost/Cost_Fundamentals/100_4_Cost_and_Usage_Analysis/Checklist.html" title="Checklist" class="md-nav__link">
+    <a href="../100_4_Cost_and_Usage_Analysis/Checklist.html" title="Checklist" class="md-nav__link">
       Checklist
     </a>
   </li>
@@ -618,7 +612,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Cost/Cost_Fundamentals/100_4_Cost_and_Usage_Analysis/Lab_Guide.html" title="Lab Guide" class="md-nav__link">
+    <a href="../100_4_Cost_and_Usage_Analysis/Lab_Guide.html" title="Lab Guide" class="md-nav__link">
       Lab Guide
     </a>
   </li>
@@ -654,7 +648,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Cost/Cost_Fundamentals/100_5_Cost_Visualization/README.html" title="Lab Overview" class="md-nav__link">
+    <a href="../100_5_Cost_Visualization/README.html" title="Lab Overview" class="md-nav__link">
       Lab Overview
     </a>
   </li>
@@ -666,7 +660,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Cost/Cost_Fundamentals/100_5_Cost_Visualization/Checklist.html" title="Checklist" class="md-nav__link">
+    <a href="../100_5_Cost_Visualization/Checklist.html" title="Checklist" class="md-nav__link">
       Checklist
     </a>
   </li>
@@ -678,7 +672,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Cost/Cost_Fundamentals/100_5_Cost_Visualization/Lab_Guide.html" title="Lab Guide" class="md-nav__link">
+    <a href="../100_5_Cost_Visualization/Lab_Guide.html" title="Lab Guide" class="md-nav__link">
       Lab Guide
     </a>
   </li>
@@ -714,7 +708,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Cost/Cost_Fundamentals/200_2_Cost_and_Usage_Governance/README.html" title="Lab Overview" class="md-nav__link">
+    <a href="../200_2_Cost_and_Usage_Governance/README.html" title="Lab Overview" class="md-nav__link">
       Lab Overview
     </a>
   </li>
@@ -726,7 +720,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Cost/Cost_Fundamentals/200_2_Cost_and_Usage_Governance/Checklist.html" title="Checklist" class="md-nav__link">
+    <a href="../200_2_Cost_and_Usage_Governance/Checklist.html" title="Checklist" class="md-nav__link">
       Checklist
     </a>
   </li>
@@ -738,7 +732,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Cost/Cost_Fundamentals/200_2_Cost_and_Usage_Governance/Lab_Guide.html" title="Lab Guide" class="md-nav__link">
+    <a href="../200_2_Cost_and_Usage_Governance/Lab_Guide.html" title="Lab Guide" class="md-nav__link">
       Lab Guide
     </a>
   </li>
@@ -774,7 +768,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Cost/Cost_Fundamentals/200_3_Pricing_Models/README.html" title="Lab Overview" class="md-nav__link">
+    <a href="../200_3_Pricing_Models/README.html" title="Lab Overview" class="md-nav__link">
       Lab Overview
     </a>
   </li>
@@ -786,7 +780,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Cost/Cost_Fundamentals/200_3_Pricing_Models/Checklist.html" title="Checklist" class="md-nav__link">
+    <a href="../200_3_Pricing_Models/Checklist.html" title="Checklist" class="md-nav__link">
       Checklist
     </a>
   </li>
@@ -798,7 +792,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Cost/Cost_Fundamentals/200_3_Pricing_Models/Lab_Guide.html" title="Lab Guide" class="md-nav__link">
+    <a href="../200_3_Pricing_Models/Lab_Guide.html" title="Lab Guide" class="md-nav__link">
       Lab Guide
     </a>
   </li>
@@ -834,7 +828,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Cost/Cost_Fundamentals/200_4_Cost_and_Usage_Analysis/README.html" title="Lab Overview" class="md-nav__link">
+    <a href="../200_4_Cost_and_Usage_Analysis/README.html" title="Lab Overview" class="md-nav__link">
       Lab Overview
     </a>
   </li>
@@ -846,7 +840,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Cost/Cost_Fundamentals/200_4_Cost_and_Usage_Analysis/Checklist.html" title="Checklist" class="md-nav__link">
+    <a href="../200_4_Cost_and_Usage_Analysis/Checklist.html" title="Checklist" class="md-nav__link">
       Checklist
     </a>
   </li>
@@ -858,7 +852,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Cost/Cost_Fundamentals/200_4_Cost_and_Usage_Analysis/Lab_Guide.html" title="Lab Guide" class="md-nav__link">
+    <a href="../200_4_Cost_and_Usage_Analysis/Lab_Guide.html" title="Lab Guide" class="md-nav__link">
       Lab Guide
     </a>
   </li>
@@ -894,7 +888,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Cost/Cost_Fundamentals/200_5_Cost_Visualization/README.html" title="Lab Overview" class="md-nav__link">
+    <a href="../200_5_Cost_Visualization/README.html" title="Lab Overview" class="md-nav__link">
       Lab Overview
     </a>
   </li>
@@ -906,7 +900,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Cost/Cost_Fundamentals/200_5_Cost_Visualization/Checklist.html" title="Checklist" class="md-nav__link">
+    <a href="../200_5_Cost_Visualization/Checklist.html" title="Checklist" class="md-nav__link">
       Checklist
     </a>
   </li>
@@ -918,7 +912,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Cost/Cost_Fundamentals/200_5_Cost_Visualization/Lab_Guide.html" title="Lab Guide" class="md-nav__link">
+    <a href="../200_5_Cost_Visualization/Lab_Guide.html" title="Lab Guide" class="md-nav__link">
       Lab Guide
     </a>
   </li>
@@ -959,7 +953,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Cost/Cost_and_Usage_Analysis/README.html" title="Analysis Overview" class="md-nav__link">
+    <a href="../../Cost_and_Usage_Analysis/README.html" title="Analysis Overview" class="md-nav__link">
       Analysis Overview
     </a>
   </li>
@@ -990,7 +984,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Cost/Cost_and_Usage_Analysis/300_Automated_CUR_Updates_and_Ingestion/README.html" title="Lab Overview" class="md-nav__link">
+    <a href="../../Cost_and_Usage_Analysis/300_Automated_CUR_Updates_and_Ingestion/README.html" title="Lab Overview" class="md-nav__link">
       Lab Overview
     </a>
   </li>
@@ -1002,7 +996,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Cost/Cost_and_Usage_Analysis/300_Automated_CUR_Updates_and_Ingestion/Lab_Guide.html" title="Lab Guide" class="md-nav__link">
+    <a href="../../Cost_and_Usage_Analysis/300_Automated_CUR_Updates_and_Ingestion/Lab_Guide.html" title="Lab Guide" class="md-nav__link">
       Lab Guide
     </a>
   </li>
@@ -1048,7 +1042,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Security/README.html" title="Security" class="md-nav__link">
+    <a href="../../../Security/README.html" title="Security" class="md-nav__link">
       Security
     </a>
   </li>
@@ -1079,7 +1073,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Security/100 - AWS Account & Root User/README.html" title="Account and Root User" class="md-nav__link">
+    <a href="../../../Security/100 - AWS Account & Root User/README.html" title="Account and Root User" class="md-nav__link">
       Account and Root User
     </a>
   </li>
@@ -1091,7 +1085,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Security/100 - Basic Identity & Access Management User, Group, Role/README.html" title="Basic Identity & Access Management User, Group, Role" class="md-nav__link">
+    <a href="../../../Security/100 - Basic Identity & Access Management User, Group, Role/README.html" title="Basic Identity & Access Management User, Group, Role" class="md-nav__link">
       Basic Identity & Access Management User, Group, Role
     </a>
   </li>
@@ -1103,7 +1097,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Security/100 - CloudFront with S3 Bucket Origin/README.html" title="CloudFront with S3 Bucket Origin" class="md-nav__link">
+    <a href="../../../Security/100 - CloudFront with S3 Bucket Origin/README.html" title="CloudFront with S3 Bucket Origin" class="md-nav__link">
       CloudFront with S3 Bucket Origin
     </a>
   </li>
@@ -1139,7 +1133,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Security/200 - Automated Deployment of Detective Controls/README.html" title="Automated Deployment of Detective Controls" class="md-nav__link">
+    <a href="../../../Security/200 - Automated Deployment of Detective Controls/README.html" title="Automated Deployment of Detective Controls" class="md-nav__link">
       Automated Deployment of Detective Controls
     </a>
   </li>
@@ -1151,7 +1145,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Security/200 - Automated Deployment of EC2 Web Application/README.html" title="Automated Deployment of EC2 Web Application" class="md-nav__link">
+    <a href="../../../Security/200 - Automated Deployment of EC2 Web Application/README.html" title="Automated Deployment of EC2 Web Application" class="md-nav__link">
       Automated Deployment of EC2 Web Application
     </a>
   </li>
@@ -1163,7 +1157,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Security/200 - Automated Deployment of IAM Groups and Roles/README.html" title="Automated Deployment of IAM Groups and Roles" class="md-nav__link">
+    <a href="../../../Security/200 - Automated Deployment of IAM Groups and Roles/README.html" title="Automated Deployment of IAM Groups and Roles" class="md-nav__link">
       Automated Deployment of IAM Groups and Roles
     </a>
   </li>
@@ -1175,7 +1169,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Security/200 - Automated Deployment of VPC/README.html" title="Automated Deployment of VPC" class="md-nav__link">
+    <a href="../../../Security/200 - Automated Deployment of VPC/README.html" title="Automated Deployment of VPC" class="md-nav__link">
       Automated Deployment of VPC
     </a>
   </li>
@@ -1187,7 +1181,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Security/200 - Basic EC2 with WAF Protection/README.html" title="Basic EC2 with WAF Protection" class="md-nav__link">
+    <a href="../../../Security/200 - Basic EC2 with WAF Protection/README.html" title="Basic EC2 with WAF Protection" class="md-nav__link">
       Basic EC2 with WAF Protection
     </a>
   </li>
@@ -1199,7 +1193,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Security/200 - CloudFront with WAF Protection/README.html" title="CloudFront with WAF Protection" class="md-nav__link">
+    <a href="../../../Security/200 - CloudFront with WAF Protection/README.html" title="CloudFront with WAF Protection" class="md-nav__link">
       CloudFront with WAF Protection
     </a>
   </li>
@@ -1235,7 +1229,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Security/300 - IAM Permission Boundaries Delegating Role Creation/README.html" title="IAM Permission Boundaries Delegating Role Creation" class="md-nav__link">
+    <a href="../../../Security/300 - IAM Permission Boundaries Delegating Role Creation/README.html" title="IAM Permission Boundaries Delegating Role Creation" class="md-nav__link">
       IAM Permission Boundaries Delegating Role Creation
     </a>
   </li>
@@ -1247,7 +1241,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Security/300 - IAM Tag Based Access Control for EC2/README.html" title="IAM Tag Based Access Control for EC2" class="md-nav__link">
+    <a href="../../../Security/300 - IAM Tag Based Access Control for EC2/README.html" title="IAM Tag Based Access Control for EC2" class="md-nav__link">
       IAM Tag Based Access Control for EC2
     </a>
   </li>
@@ -1288,7 +1282,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Operations/README.html" title="Coming Soon" class="md-nav__link">
+    <a href="../../../Operations/README.html" title="Coming Soon" class="md-nav__link">
       Coming Soon
     </a>
   </li>
@@ -1343,7 +1337,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Reliability/300 - Testing for Resiliency of EC2, RDS, and S3/README.html" title="Lab Overview" class="md-nav__link">
+    <a href="../../../Reliability/300 - Testing for Resiliency of EC2, RDS, and S3/README.html" title="Lab Overview" class="md-nav__link">
       Lab Overview
     </a>
   </li>
@@ -1355,7 +1349,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Reliability/300 - Testing for Resiliency of EC2, RDS, and S3/Checklist.md" title="Checklist" class="md-nav__link">
+    <a href="../../../Reliability/300 - Testing for Resiliency of EC2, RDS, and S3/Checklist.md" title="Checklist" class="md-nav__link">
       Checklist
     </a>
   </li>
@@ -1367,7 +1361,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Reliability/300 - Testing for Resiliency of EC2, RDS, and S3/Lab_Guide.md" title="Lab Guide" class="md-nav__link">
+    <a href="../../../Reliability/300 - Testing for Resiliency of EC2, RDS, and S3/Lab_Guide.md" title="Lab Guide" class="md-nav__link">
       Lab Guide
     </a>
   </li>
@@ -1408,7 +1402,7 @@
 
 
   <li class="md-nav__item">
-    <a href="Performance/README.html" title="Coming Soon" class="md-nav__link">
+    <a href="../../../Performance/README.html" title="Coming Soon" class="md-nav__link">
       Coming Soon
     </a>
   </li>
@@ -1440,29 +1434,15 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#introduction" title="Introduction" class="md-nav__link">
-    Introduction
+  <a href="#authors" title="Authors" class="md-nav__link">
+    Authors
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#prerequisites" title="Prerequisites:" class="md-nav__link">
-    Prerequisites:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#labs" title="Labs:" class="md-nav__link">
-    Labs:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#license" title="License" class="md-nav__link">
-    License
+  <a href="#feedback" title="Feedback" class="md-nav__link">
+    Feedback
   </a>
   
 </li>
@@ -1483,32 +1463,330 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/awslabs/aws-well-architected-labs/edit/master/docs/index.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/awslabs/aws-well-architected-labs/edit/master/docs/Cost/Cost_Fundamentals/100_2_Cost_and_Usage_Governance/Lab_Guide.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="aws-well-architected-labs">AWS Well-Architected Labs</h1>
-<h2 id="introduction">Introduction</h2>
-<p>The <a href="http://aws.amazon.com/well-architected">Well-Architected</a> framework has been developed to help cloud architects build the most secure, high-performing, resilient, and efficient infrastructure possible for their applications. This framework provides a consistent approach for customers and partners to evaluate architectures, and provides guidance to help implement designs that will scale with your application needs over time.</p>
-<p>This repository contains documentation and code in the format of hands-on labs to help you learn, measure, and build using architectural best practices. The labs are categorized into levels, where 100 is introductory, 200/300 is intermediate and 400 is advanced.</p>
-<h2 id="prerequisites">Prerequisites:</h2>
-<p>An <a href="https://portal.aws.amazon.com/gp/aws/developer/registration/index.html">AWS account</a> that you are able to use for testing, that is not used for production or other purposes. 
-NOTE: You will be billed for any applicable AWS resources used if you complete this lab that are not covered in the <a href="https://aws.amazon.com/free/">AWS Free Tier</a>.</p>
-<h2 id="labs">Labs:</h2>
-<p>The labs are structured around the five pillars of the <a href="http://aws.amazon.com/well-architected">Well-Architected Framework</a>:</p>
+                <h1 id="level-100-cost-and-usage-governance">Level 100: Cost and Usage Governance</h1>
+<h2 id="authors">Authors</h2>
 <ul>
-<li><a href="Cost">Cost Optimization</a> </li>
-<li>Operational Excellence (No labs currently available)</li>
-<li>Performance Efficiency (No labs current available) </li>
-<li><a href="Reliability">Reliability</a> </li>
-<li><a href="Security/">Security</a></li>
+<li>Nathan Besh, Cost Lead Well-Architected</li>
 </ul>
-<h2 id="license">License</h2>
-<p>Licensed under the Apache 2.0 and MITnoAttr License. </p>
-<p>Copyright 2018 Amazon.com, Inc. or its affiliates. All Rights Reserved.</p>
-<p>Licensed under the Apache License, Version 2.0 (the "License"). You may not use this file except in compliance with the License. A copy of the License is located at</p>
-<pre><code>http://aws.amazon.com/apache2.0/
+<h2 id="feedback">Feedback</h2>
+<p>If you wish to provide feedback on this lab, there is an error, or you want to make a suggestion, please email: costoptimization@amazon.com</p>
+<h1 id="table-of-contents">Table of Contents</h1>
+<ol>
+<li><a href="#create_team">Create a cost optimization team</a></li>
+<li><a href="#budget_forecast">Create an AWS Budget - monthly forecast</a></li>
+<li><a href="#budget_ec2actual">Create an AWS Budget - EC2 actual</a></li>
+<li><a href="#budget_ricoverage">Create an AWS Budget - RI Coverage</a></li>
+<li><a href="#tear_down">Tear down</a></li>
+<li><a href="#survey">Feedback survey</a>  </li>
+</ol>
+<h2 id="1-create-a-cost-optimization-team">1. Create a cost optimization team <a name="create_team"></a></h2>
+<p>We are going to create a cost optimization team. Within your organization there needs to be a team of people that are focused around costs and usage. This exercise will create the users and the group, then assign all the access they need.
+This team will then be able to manage the organizations cost and usage, and start to implement optimization mechanisms.</p>
+<p>Log into the console as an IAM user with the required permissions, as per:
+- <a href="../Code/IAM_policy">../Code/IAM_policy</a> IAM policy required for this lab</p>
+<h3 id="11-create-an-iam-policy-for-the-team">1.1 Create an IAM policy for the team</h3>
+<p>This provides access to allow the cost optimization team to perform their work, namely the Labs in the 100 level fundamental series. This is the minimum access the team requires.</p>
+<ol>
+<li>
+<p>Log in and go to the <strong>IAM</strong> Service page:
+<img alt="Images/AWSIAM1.png" src="Images/AWSIAM1.png" /></p>
+</li>
+<li>
+<p>Select <strong>Policies</strong> from the left menu:
+<img alt="Images/AWSIAM2.png" src="Images/AWSIAM2.png" /></p>
+</li>
+<li>
+<p>Select <strong>Create Policy</strong>:
+<img alt="Images/AWSIAM3.png" src="Images/AWSIAM3.png" /></p>
+</li>
+<li>
+<p>Select the <strong>JSON</strong> tab:
+<img alt="Images/AWSIAM4.png" src="Images/AWSIAM4.png" /></p>
+</li>
+<li>
+<p>Copy &amp; paste the following policy into the the field:
+<strong>NOTE</strong>: Ensure you copy the entire policy, everything including the first '{' and last '}'</p>
+</li>
+</ol>
+<pre><code>{
+    &quot;Version&quot;: &quot;2012-10-17&quot;,
+    &quot;Statement&quot;: [
+        {
+            &quot;Sid&quot;: &quot;VisualEditor0&quot;,
+            &quot;Effect&quot;: &quot;Allow&quot;,
+            &quot;Action&quot;: [
+                &quot;aws-portal:ViewUsage&quot;,
+                &quot;aws-portal:ModifyBilling&quot;,
+                &quot;aws-portal:ViewBilling&quot;,
+                &quot;aws-portal:ViewAccount&quot;,
+                &quot;budgets:*&quot;
+            ],
+            &quot;Resource&quot;: &quot;*&quot;
+        }
+    ]
+}
 </code></pre>
-<p>or in the "license" file accompanying this file. This file is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</p>
+
+<ol>
+<li>
+<p>Click <strong>Review policy</strong>: 
+<img alt="Images/AWSIAM5.png" src="Images/AWSIAM5.png" /></p>
+</li>
+<li>
+<p>Enter a <strong>Name</strong> and <strong>Description</strong> for the policy and click <strong>Create policy</strong>:
+<img alt="Images/AWSIAM6.png" src="Images/AWSIAM6.png" /></p>
+</li>
+</ol>
+<p>You have successfully created the cost optimization teams policy.</p>
+<h3 id="12-create-an-iam-group">1.2 Create an IAM Group</h3>
+<p>This group will bring together IAM users and apply the required policies.</p>
+<ol>
+<li>
+<p>While in the IAM console, select <strong>Groups</strong> from the left menu:
+<img alt="Images/AWSIAM7.png" src="Images/AWSIAM7.png" /></p>
+</li>
+<li>
+<p>Click on <strong>Create New Group</strong>:
+<img alt="Images/AWSIAM8.png" src="Images/AWSIAM8.png" /></p>
+</li>
+<li>
+<p>Enter a <strong>Group Name</strong> and click <strong>Next Step</strong>:
+<img alt="Images/AWSIAM9.png" src="Images/AWSIAM9.png" /></p>
+</li>
+<li>
+<p>Click <strong>Policy Type</strong> and select <strong>Customer Managed</strong>:
+<img alt="Images/AWSIAM10.png" src="Images/AWSIAM10.png" /></p>
+</li>
+<li>
+<p>Select the <strong>CostOptimization_Summit</strong> policy (created previously):
+<img alt="Images/AWSIAM11.png" src="Images/AWSIAM11.png" /></p>
+</li>
+<li>
+<p>Click <strong>Create Group</strong>:
+<img alt="Images/AWSIAM14.png" src="Images/AWSIAM14.png" /></p>
+</li>
+</ol>
+<p>You have now successfully created the cost optimization group, and attached the required policies.</p>
+<h3 id="13-create-an-iam-user">1.3 Create an IAM User</h3>
+<p>For this lab we will create a user and join them to the group above.</p>
+<ol>
+<li>
+<p>In the IAM console, select <strong>Users</strong> from the left menu:
+<img alt="Images/AWSIAM15.png" src="Images/AWSIAM15.png" /></p>
+</li>
+<li>
+<p>Click <strong>Add user</strong>:
+<img alt="Images/AWSIAM16.png" src="Images/AWSIAM16.png" /></p>
+</li>
+<li>
+<p>Enter a <strong>User name</strong>, select <strong>AWS Management Console access</strong>, choose <strong>Custom Password</strong>, type a suitable password, deselect <strong>Require password reset</strong>, and click <strong>Next: Permissions</strong>:
+<img alt="Images/AWSIAM17.png" src="Images/AWSIAM17.png" /></p>
+</li>
+<li>
+<p>Select the <strong>CostOptimization</strong> group (created previously), and click <strong>Next: Tags</strong>:
+<img alt="Images/AWSIAM18.png" src="Images/AWSIAM18.png" /></p>
+</li>
+<li>
+<p>Click <strong>Next Review</strong>:
+<img alt="Images/AWSIAM19.png" src="Images/AWSIAM19.png" /></p>
+</li>
+<li>
+<p>Click <strong>Create user</strong>:
+<img alt="Images/AWSIAM20.png" src="Images/AWSIAM20.png" /></p>
+</li>
+<li>
+<p>Copy the link provided, and logout by clicking on your username in the top right, and selecting <strong>Sign Out</strong>::
+<img alt="Images/AWSIAM21.png" src="Images/AWSIAM21.png" /></p>
+</li>
+<li>
+<p>Log back in as the username you just created, with the link you copied for the remainder of the Lab.</p>
+</li>
+</ol>
+<p>You have successfully create a user, placed them in the cost optimization group and have applied policies.
+You can continue to expand this group by adding additional users from your organization.</p>
+<h2 id="2-create-and-implement-an-aws-budget-for-monthly-forecasted-usage">2. Create and implement an AWS Budget for monthly forecasted usage<a name="budget_forecast"></a></h2>
+<p>Budgets allow you to manage cost and usage by providing notifications when usage or cost are outside of configured amounts. They cannot be used to restrict actions, only notify on usage after it has occurred.</p>
+<h3 id="create-a-monthly-cost-budget-for-your-account">Create a monthly cost budget for your account</h3>
+<p>We will create a monthly cost budget which will notify if the forecasted amount exceeds the budget.</p>
+<ol>
+<li>
+<p>Go to the <strong>Billing console</strong>:
+<img alt="Images/AWSBudget1.png" src="Images/AWSBudget1.png" /></p>
+</li>
+<li>
+<p>Select <strong>Budgets</strong> from the left menu:
+<img alt="Images/AWSBudget2.png" src="Images/AWSBudget2.png" /></p>
+</li>
+<li>
+<p>Click on <strong>Create a budget</strong>:
+<img alt="Images/AWSBudget3.png" src="Images/AWSBudget3.png" /></p>
+</li>
+<li>
+<p>Ensure <strong>Cost Budget</strong> is selected, and click <strong>Set your budget &gt;</strong>:
+<img alt="Images/AWSBudget4.png" src="Images/AWSBudget4.png" /></p>
+</li>
+<li>
+<p>Create a cost budget, enter the following details:</p>
+</li>
+<li><strong>Name</strong>: (enter a name), </li>
+<li><strong>Budgeted amount</strong>: (enter an amount a lot LESS than last months cost), </li>
+<li><strong>Budget effective dates</strong>: Select <strong>Recurring Budget</strong> and start month is the current month, </li>
+<li>
+<p>Other fields: leave as defaults:
+<img alt="Images/AWSBudget5.png" src="Images/AWSBudget5.png" /></p>
+</li>
+<li>
+<p>Scroll down and click <strong>Configure alerts &gt;</strong>:
+<img alt="Images/AWSBudget6.png" src="Images/AWSBudget6.png" /></p>
+</li>
+<li>
+<p>Select:</p>
+</li>
+<li><strong>Send alert based on</strong>: Forecasted Costs</li>
+<li><strong>Alert threshold</strong>: 100% of budgeted amount</li>
+<li><strong>Email contacts</strong>: (your email address)</li>
+<li>
+<p>Click on <strong>Confirm budget &gt;</strong>:
+<img alt="Images/AWSBudget7.png" src="Images/AWSBudget7.png" /></p>
+</li>
+<li>
+<p>Review the configuration, and click <strong>Create</strong>:
+<img alt="Images/AWSBudget8.png" src="Images/AWSBudget8.png" /></p>
+</li>
+<li>
+<p>You can see the current forecast will exceed the budget (it is red, you may need to refresh your browser):
+<img alt="Images/AWSBudget9.png" src="Images/AWSBudget9.png" /> </p>
+</li>
+</ol>
+<p>10: You will receive an email similar to this within a few minutes:
+<img alt="Images/AWSBudget10.png" src="Images/AWSBudget10.png" /></p>
+<p>You have created a forecasted budget, when your forecasted costs for the entire account are predicted to exceed the forecast, you will receive a notification. You can also create an actual budget, for when your current costs actually exceed a defined amount.</p>
+<h2 id="3-create-and-implement-an-aws-budget-for-ec2-actual-cost">3. Create and implement an AWS Budget for EC2 actual cost<a name="budget_ec2actual"></a></h2>
+<p>We will create a monthly EC2 actual cost budget, which will notify if the actual costs of EC2 instances exceeds the specified amount.</p>
+<ol>
+<li>
+<p>Click <strong>Create budget</strong>:
+<img alt="Images/AWSBudget11.png" src="Images/AWSBudget11.png" /></p>
+</li>
+<li>
+<p>Select <strong>Cost budget</strong>, and click <strong>Set your budget &gt;</strong>:
+<img alt="Images/AWSLab0.png" src="Images/AWSLab0.png" /></p>
+</li>
+<li>
+<p>Create a cost budget, enter the following details:</p>
+</li>
+<li><strong>Name</strong>: (enter a name), </li>
+<li><strong>Budgeted amount</strong>: (enter an amount a lot LESS than last months cost), </li>
+<li><strong>Budget effective dates</strong>: Select <strong>Recurring Budget</strong> and start month is the current month, </li>
+<li>Other fields: leave a defaults</li>
+<li>
+<p>Under <strong>FILTERING</strong> click on Service:
+<img alt="Images/AWSLab1.png" src="Images/AWSLab1.png" /></p>
+</li>
+<li>
+<p>Type <strong>Elastic</strong> in the search field, then select the checkbox next to <strong>EC2-Instances(Elastic Compute Cloud - Compute)</strong> and Click <strong>Apply filters</strong>:
+<img alt="Images/AWSLab2.png" src="Images/AWSLab2.png" /></p>
+</li>
+<li>
+<p>De-select <strong>Upfront reservation fees</strong>, and click <strong>Configure alerts &gt;</strong>:
+<img alt="Images/AWSLab3.png" src="Images/AWSLab3.png" /> </p>
+</li>
+<li>
+<p>Select:</p>
+</li>
+<li><strong>Send alert based on</strong>: Actual Costs</li>
+<li><strong>Alert threshold</strong>: 100% of budgeted amount</li>
+<li><strong>Email contacts</strong>: (your email address)</li>
+<li>
+<p>Click on <strong>Confirm budget &gt;</strong>:
+<img alt="Images/AWSLab4.png" src="Images/AWSLab4.png" /></p>
+</li>
+<li>
+<p>Review the configuration, and click <strong>Create</strong>:
+<img alt="Images/AWSLab5.png" src="Images/AWSLab5.png" /></p>
+</li>
+<li>
+<p>You can see the current amount exceeds the budget (it is red, you may need to refresh your browser):
+<img alt="Images/AWSLab6.png" src="Images/AWSLab6.png" /> </p>
+</li>
+<li>
+<p>You will receive an email similar to the previous budget within a few minutes.</p>
+</li>
+</ol>
+<p>You have created an actual cost budget for EC2 usage. You can extend this budget by adding specific filters such as linked accounts, tags or instance types. You can also create budgets for other services than EC2.</p>
+<h2 id="4-create-and-implement-an-aws-budget-for-ec2-instance-ri-coverage">4. Create and implement an AWS Budget for EC2 Instance RI coverage<a name="budget_ricoverage"></a></h2>
+<p>We will create a monthly RI coverage budget which will notify if the coverage of Reserved Instances for EC2 is below the specified amount.</p>
+<ol>
+<li>
+<p>Click <strong>Create budget</strong>:
+<img alt="Images/AWSLab7.png" src="Images/AWSLab7.png" /></p>
+</li>
+<li>
+<p>Select <strong>Reservation budget</strong>, and click <strong>Set your budget &gt;</strong>:
+<img alt="Images/AWSLab8.png" src="Images/AWSLab8.png" /></p>
+</li>
+<li>
+<p>For <strong>Reservation budget type</strong> Select <strong>RI Coverage</strong>, enter a <strong>Name</strong>, select <strong>EC2-Instances</strong> as the <strong>Service</strong>, enter a <strong>Coverage threshold</strong> of <strong>80%</strong> and click <strong>Configure alerts &gt;</strong>:
+<img alt="Images/AWSLab9.png" src="Images/AWSLab9.png" /> </p>
+</li>
+<li>
+<p>Enter an address for <strong>Email contacts</strong> and click <strong>Confirm budget &gt;</strong>:
+<img alt="Images/AWSLab10.png" src="Images/AWSLab10.png" /></p>
+</li>
+<li>
+<p>Review the configuration, and click <strong>Create</strong> in the lower right:
+<img alt="Images/AWSLab11.png" src="Images/AWSLab11.png" /></p>
+</li>
+<li>
+<p>You have created an RI Coverage budget. High coverage is critical for cost optimization, as it ensures you are paying the lowest price for your resources.
+<img alt="Images/AWSLab12.png" src="Images/AWSLab12.png" /></p>
+</li>
+<li>
+<p>You will receive an email similar to this within a few minutes:
+<img alt="Images/AWSLab13.png" src="Images/AWSLab13.png" /></p>
+</li>
+</ol>
+<h2 id="5-tear-down">5. Tear down <a name="tear_down"></a></h2>
+<p>NOTE: The cost optimization user, group and policies are required for the completion of the fundamental labs. If you remove these resources you will not be able to complete the labs. There is no tear down for this component as it is best practices to have this group created in all organizations.</p>
+<h3 id="delete-a-budget">Delete a budget</h3>
+<p>We will delete all three budgets that were configured in sections 2,3 and 4.</p>
+<ol>
+<li>
+<p>From the budgets homepage, click on the budget name <strong>CostBudget1</strong>:
+<img alt="Images/AWSTeardown15.png" src="Images/AWSTeardown15.png" /></p>
+</li>
+<li>
+<p>Click on the <strong>3 dot menu</strong> in the top right, select <strong>Delete</strong>:
+<img alt="Images/AWSTeardown16.png" src="Images/AWSTeardown16.png" /></p>
+</li>
+<li>
+<p>Click on the other budget name <strong>EC2_actual</strong>:
+<img alt="Images/AWSTeardown17.png" src="Images/AWSTeardown17.png" /></p>
+</li>
+<li>
+<p>Click on the <strong>3 dot menu</strong> in the top right, select <strong>Delete</strong>:
+<img alt="Images/AWSTeardown18.png" src="Images/AWSTeardown18.png" /></p>
+</li>
+<li>
+<p>Click on the other budget name <strong>EC2_RI_Coverage</strong>:
+<img alt="Images/AWSTeardown19.png" src="Images/AWSTeardown19.png" /></p>
+</li>
+<li>
+<p>Click on the <strong>3 dot menu</strong> in the top right, select <strong>Delete</strong>:
+<img alt="Images/AWSTeardown20.png" src="Images/AWSTeardown20.png" /></p>
+</li>
+<li>
+<p>ALl budgets should be deleted that were created in this workshop:
+<img alt="Images/AWSTeardown21.png" src="Images/AWSTeardown21.png" /></p>
+</li>
+</ol>
+<h2 id="6-survey">6. Survey <a name="survey"></a></h2>
+<p>Thanks for taking the lab, We hope that you can take this short survey (&lt;2 minutes), to share your insights and help us improve our content.</p>
+<p><a href="https://amazonmr.au1.qualtrics.com/jfe/form/SV_9M48P1ZocaP940d"><img alt="Survey" src="Images/survey.png" /></a></p>
+<p>This survey is hosted by an external company (Qualtrics) , so the link above does not lead to our website.  Please note that AWS will own the data gathered via this survey and will not share the information/results collected with survey respondents.  Your responses to this survey will be subject to Amazons Privacy Policy.</p>
                 
                   
                 
@@ -1529,14 +1807,28 @@ NOTE: You will be billed for any applicable AWS resources used if you complete t
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
+          <a href="Checklist.html" title="Checklist" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Checklist
+              </span>
+            </div>
+          </a>
         
-          <a href="Cost/README.html" title="Overview" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+        
+          <a href="../100_4_Cost_and_Usage_Analysis/README.html" title="Lab Overview" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Overview
+                Lab Overview
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
@@ -1568,11 +1860,11 @@ NOTE: You will be billed for any applicable AWS resources used if you complete t
       
     </div>
     
-      <script src="assets/javascripts/application.d9aa80ab.js"></script>
+      <script src="../../../assets/javascripts/application.d9aa80ab.js"></script>
       
-      <script>app.initialize({version:"1.0.4",url:{base:"."}})</script>
+      <script>app.initialize({version:"1.0.4",url:{base:"../../.."}})</script>
       
-        <script src="js/tracking.js"></script>
+        <script src="../../../js/tracking.js"></script>
       
     
   </body>
