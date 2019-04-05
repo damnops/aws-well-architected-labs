@@ -1383,21 +1383,22 @@ _atrk_opts = { atrk_acct:"PW0Ds1O7kI20L7", domain:"awscostworkshop.com",dynamic:
                 
                   <h1>Region Restrict</h1>
                 
-                <p>{
-    "Version": "2012-10-17",
-    "Statement": [
+                <pre><code>{
+    &quot;Version&quot;: &quot;2012-10-17&quot;,
+    &quot;Statement&quot;: [
         {
-            "Effect": "Allow",
-            "Action": [
-                "ec2:<em>",
-                "rds:</em>",
-                "s3:<em>"
+            &quot;Effect&quot;: &quot;Allow&quot;,
+            &quot;Action&quot;: [
+                &quot;ec2:*&quot;,
+                &quot;rds:*&quot;,
+                &quot;s3:*&quot;
             ],
-            "Resource": "</em>",
-      "Condition": {"StringEquals": {"aws:RequestedRegion": "us-east-1"}}
+            &quot;Resource&quot;: &quot;*&quot;,
+      &quot;Condition&quot;: {&quot;StringEquals&quot;: {&quot;aws:RequestedRegion&quot;: &quot;us-east-1&quot;}}
         }
     ]
-}</p>
+}
+</code></pre>
                 
                   
                 
