@@ -1757,7 +1757,7 @@ order by &quot;line_item_usage_type&quot;
 
 <ol>
 <li>Costs By running type
-Divide the cost by usage (hrs), and see how much is being spent per hour on each of the usage types. Compare <strong>BoxUsgae</strong> (On Demand), to <strong>HeavyUsage</strong> (Reserved instance), to <strong>SpotUsage</strong> (Spot).</li>
+Divide the cost by usage (hrs), and see how much is being spent per hour on each of the usage types. Compare <strong>BoxUsage</strong> (On Demand), to <strong>HeavyUsage</strong> (Reserved instance), to <strong>SpotUsage</strong> (Spot).</li>
 </ol>
 <pre><code>select &quot;line_item_usage_type&quot;, round(sum(&quot;line_item_usage_amount&quot;),2) as usage, round(sum(&quot;line_item_unblended_cost&quot;),2) as cost, round(avg(&quot;line_item_unblended_cost&quot;/&quot;line_item_usage_amount&quot;),4) as hourly_rate from &quot;workshopcur&quot;.&quot;workshop_c_u_r&quot;
 where &quot;line_item_product_code&quot; like '%AmazonEC2%' and &quot;line_item_usage_type&quot; like '%Usage%' and month(bill_billing_period_start_date) = 12 and year(bill_billing_period_start_date) = 2018
