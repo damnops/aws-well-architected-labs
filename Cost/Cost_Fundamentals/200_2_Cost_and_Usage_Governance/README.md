@@ -1,4 +1,5 @@
 # Level 200: Cost and Usage Governance
+http://wellarchitectedlabs.com 
 
 ## Introduction
  This hands-on lab will guide you through the steps to implement cost and usage governance. The skills you learn will help you control your cost and usage in alignment with your business requirements.
@@ -15,14 +16,16 @@
 - Completed all previous labs in the Cost Fundamentals series
 
 
-## Overview
-- [Lab_Guide.md](Lab_Guide.md) the guide for this lab
-
-
 ## Permissions required
 - [./Code/IAM_policy](./Code/IAM_policy.md) IAM policy required for this lab
 - NOTE: There may be permission error messages during the lab, as the console may require additional privileges. These errors will not impact the lab, and we follow security best practices by implementing the minimum set of privileges required.
  
+<BR>
+
+## [Start the Lab!](Lab_Guide.md)
+
+<BR>
+<BR> 
 
 ## Best Practice Checklist 
 - [ ] Create a cost optimizaion team, to manage cost optimization across your organization
@@ -31,6 +34,7 @@
 - [ ] Extend an IAM Policy to restrict EC2 usage by instance size
 - [ ] Create an IAM policy to restrict EBS Volume creation by volume type
 
+***
 
 ## License
 Licensed under the Apache 2.0 and MITnoAttr License.

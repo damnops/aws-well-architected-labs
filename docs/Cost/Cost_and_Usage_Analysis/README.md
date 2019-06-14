@@ -1,4 +1,5 @@
 # AWS Well-Architected Cost Optimization Labs
+http://wellarchitectedlabs.com 
 
 ## Cost and Usage Analysis
 Critical to Cost Optimization is cost and usage analysis. The first step in being able to optimize is understanding your usage, and therefore costs. After analysis is performed, you will gain insights and be able to modify your usage, leading to increasing optimization of your workloads. 
@@ -16,11 +17,11 @@ These labs are from the fundamentals series and must be completed before you mov
 
 
 ### 300
-These labs focus on specific items within cost and usage analysis and are used to acheive a specific outcome. They must be done after the 100 and 200 labs, however they can be completed independantly of each other. 
+These labs focus on specific items within cost and usage analysis and are used to achieve a specific outcome. They must be done after the 100 and 200 labs, however they can be completed independantly of each other. 
 
 - [300 Billing Analysis - Automated CUR Updates and Ingestion](./300_Automated_CUR_Updates_and_Ingestion/README.md) 
-
-
+- [300 Billing Analysis - Multi Account CUR Access](./300_Multi_Account_CUR_Access/README.md)
+- [300 Billing Analysis - Splitting and Sharing CUR Access](./300_Splitting_Sharing_CUR_Access/README.md)
 
 
 

@@ -16,7 +16,8 @@ If you wish to provide feedback on this lab, there is an error, or you want to m
 5. [Enable AWS Cost Explorer](#cost_explorer)
 6. [Enable AWS-Generated Cost Allocation Tags](#cost_tags)
 7. [Tear down](#tear_down)
-8. [Feedback survey](#survey)
+8. [Rate this Lab](#rate_lab) 
+9. [Feedback survey](#survey)
 
 
 ## 1. Configure IAM access to your billing<a name="IAM_access"></a>
@@ -45,7 +46,7 @@ You will now be able to provide access to non-root users to billing information 
 ## 2. Create an account structure<a name="account_structure"></a>
 **NOTE**: Do NOT do this step if you already have an organization and consolidated billing setup.
 
-You will create an AWS Organization, and join one or more accounts to te master account. An organization will allow you to centrally manage multilpe AWS accounts efficiently and consistently. It is recommended to have a master account that is primarily used for billing and does not contain any resources, all resources and workloads will reside in the member accounts. You will need organizations:CreateOrganization access, and 2 or more AWS accounts. When you create a new master account, it will contain all billing information for member accounts, member accounts will no longer have any billing information, including historical billing information.  Ensure you backup or export any reports or data.  
+You will create an AWS Organization, and join one or more accounts to the master account. An organization will allow you to centrally manage multilpe AWS accounts efficiently and consistently. It is recommended to have a master account that is primarily used for billing and does not contain any resources, all resources and workloads will reside in the member accounts. You will need organizations:CreateOrganization access, and 2 or more AWS accounts. When you create a new master account, it will contain all billing information for member accounts, member accounts will no longer have any billing information, including historical billing information.  Ensure you backup or export any reports or data.  
 
 ### 2.1 Create an AWS Organization
 You will create an AWS Organization with the master account. 
@@ -219,7 +220,12 @@ Enabling AWS-Generated Cost Allocation Tags, generates a cost allocation tag con
 This exercise covered fundamental steps that are recommended for all AWS accounts to enable Cost Optimization. There is no tear down for exercises in this lab.
 Ensure you remove the IAM policies from the users/groups if they were used. 
 
-## 8. Survey <a name="survey"></a>
+
+## 8. Rate this lab<a name="rate_lab"></a>  
+[![1 Star](Images/star.png)](http://dx1572sre29wk.cloudfront.net/Cost_100_1_1star) [![2 star](Images/star.png)](http://dx1572sre29wk.cloudfront.net/Cost_100_1_2star) [![3 star](Images/star.png)](http://dx1572sre29wk.cloudfront.net/Cost_100_1_3star) [![4 star](Images/star.png)](http://dx1572sre29wk.cloudfront.net/Cost_100_1_4star) [![5 star](Images/star.png)](http://dx1572sre29wk.cloudfront.net/Cost_100_1_5star) 
+
+
+## 9. Survey <a name="survey"></a>
 Thanks for taking the lab, We hope that you can take this short survey (<2 minutes), to share your insights and help us improve our content.
 
 [![Survey](Images/survey.png)](https://amazonmr.au1.qualtrics.com/jfe/form/SV_cvavNi7IbbzCyfX)
